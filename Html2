@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jane Doe | Digital Resume</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button id="toggle">Toggle Dark Mode</button>
+
+  <div class="container">
+    <header>
+      <h1>Jane Doe</h1>
+      <p>Frontend Developer & Designer</p>
+    </header>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Email: janedoe@example.com</p>
+      <p>Portfolio: janedoe.dev</p>
+    </section>
+
+    <section class="summary">
+      <h2>Summary</h2>
+      <p>Passionate frontend developer with 3+ years of experience in building responsive, user-focused websites using modern tools.</p>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React, Tailwind CSS, Git</li>
+        <li>Responsive Design, UI/UX</li>
+      </ul>
+    </section>
+
+    <section class="experience">
+      <h2>Experience</h2>
+      <h3>Frontend Developer – XYZ Tech</h3>
+      <p>2022 – Present</p>
+      <ul>
+        <li>Developed and maintained dynamic single-page apps.</li>
+        <li>Improved performance and accessibility scores by 25%.</li>
+      </ul>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <p><strong>BSc Computer Science</strong> – ABC University, 2022</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Jane Doe</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("toggle").onclick = () => {
+      document.body.classList.toggle("dark");
+    };
+  </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jane Doe | Digital Resume</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button id="toggle">Toggle Dark Mode</button>
+
+  <div class="container">
+    <header>
+      <h1>Jane Doe</h1>
+      <p>Frontend Developer & Designer</p>
+    </header>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Email: janedoe@example.com</p>
+      <p>Portfolio: janedoe.dev</p>
+    </section>
+
+    <section class="summary">
+      <h2>Summary</h2>
+      <p>Passionate frontend developer with 3+ years of experience in building responsive, user-focused websites using modern tools.</p>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React, Tailwind CSS, Git</li>
+        <li>Responsive Design, UI/UX</li>
+      </ul>
+    </section>
+
+    <section class="experience">
+      <h2>Experience</h2>
+      <h3>Frontend Developer – XYZ Tech</h3>
+      <p>2022 – Present</p>
+      <ul>
+        <li>Developed and maintained dynamic single-page apps.</li>
+        <li>Improved performance and accessibility scores by 25%.</li>
+      </ul>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <p><strong>BSc Computer Science</strong> – ABC University, 2022</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Jane Doe</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("toggle").onclick = () => {
+      document.body.classList.toggle("dark");
+    };
+  </script>
+</body>
+</html>
